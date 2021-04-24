@@ -1,0 +1,4 @@
+<block wx:if="{{type==='path'}}">
+   
+    路径内容
+</block>

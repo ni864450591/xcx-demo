@@ -1,0 +1,132 @@
+/* pages/jkd/jkd.wxss */
+/* header */
+  .jkd-header{
+    display: flex;
+    width: 100%;
+    height: 200rpx;
+    background-color: #fff;
+    align-items: center;
+    box-sizing: border-box;
+    padding:0 40rpx;
+    margin-bottom: 20rpx;
+   
+  }
+  .jkd-header-tx{
+    width: 120rpx;
+    height: 120rpx;
+  }
+  .jkd-header-image{
+    width: 120rpx;
+    height: 120rpx;
+  }
+  .jkd-header-info{
+    flex:1;
+    margin-left:30px;
+  }
+  .jkd-header-name-kdy{
+    display: flex;
+    font-size: 28rpx;
+    color: #626161;
+    justify-content: start;
+    align-items: center;
+    margin-bottom: 20rpx;
+  }
+  .kdy-name{
+    margin-right: 80rpx;
+  }
+  .jkd-header-name-kd{
+    display: flex;
+    font-size: 24rpx;
+    color: #999999;
+    justify-content: start;
+    align-items: center;
+  }
+  .kd-name{
+    margin-right:20rpx;
+  }
+  .jkd-header-more-image{
+    width: 30rpx;
+    height: 30rpx;
+  }
+/* recommend */
+.jkd-recommend{
+    margin-top:20rpx;
+}
+.jkd-recommend-item{
+    margin-bottom: 30rpx;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 108rpx;
+    justify-content: space-between;
+    background-color: #fff;
+}
+.circular{
+    width: 12rpx;
+    height: 12rpx;
+    border-radius: 50%;
+    background-color: #35BD00;
+    margin-left: 80rpx;
+}
+
+.jkd-recommend-message{
+    margin-right:200rpx;
+}
+.jkd-recommend-image{
+    width: 30rpx;
+    height: 30rpx;
+    margin-right:80rpx;
+    font-size: 28rpx;
+    color: #626161;
+}
+.jkd-next{
+    margin-top:40rpx;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.jkd-next-text{
+    flex:0.9;
+    width: 660px;
+    height: 72rpx;
+    background-color: #35BD00;
+    line-height: 72rpx;
+    text-align: center;
+    font-size:32rpx;
+    color:#fff;
+    border-radius: 40rpx;
+}
+
+/* footer */
+.jkd-footer{
+    margin-top: 10rpx;
+    height: 32rpx;
+}
+.footer-list{
+    height:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer-item{
+    height: 100%;
+    display: flex;
+    padding: 0 30rpx;
+    line-height: 100%;
+}
+.line{
+  width: 2px;
+  height: 10px;
+  background-color: #ccc;
+}
+.footer-image{
+    width: 30rpx;
+    height: 30rpx;
+    position: relative;
+    right:10rpx;
+}
+.footer-text{
+    font-size:24rpx;
+    color: #999999;
+}

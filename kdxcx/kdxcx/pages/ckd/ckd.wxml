@@ -1,0 +1,37 @@
+<!--pages/ckd/ckd.wxml-->
+<!-- header -->
+<view class="ckd-header">
+    <view class="ckd-searchBox">
+        <input 
+        type="text"
+        class="search-input"
+        placeholder="请输入快递单号查询"
+        placeholder-class="search-placeholder"
+        bindinput="handleInputChange"
+        />
+        <image 
+           class="search-icon"
+           src="../../resources/scancode-icon.png"
+        />
+    </view>
+</view>
+<view class="ckd-content">
+    <view
+    wx:if="{{!flag}}"
+    class="ckd-noresult"
+    >
+        <image
+        class="ckd-noresult-img"
+        src="../../resources/big-img.png"
+        />
+        <view class="ckd-noresult-text">
+            抱歉，还没有查询到您的快递哦～～
+        </view>
+    </view>
+    <view 
+    wx:if="{{flag}}"
+    class="result"
+    >
+        查询结果为：{{result}}
+    </view>
+</view>

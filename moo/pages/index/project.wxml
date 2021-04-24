@@ -1,0 +1,4 @@
+<block wx:if="{{type==='project'}}">
+   
+   实战内容
+</block>

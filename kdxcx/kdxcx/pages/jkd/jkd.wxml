@@ -1,0 +1,91 @@
+<!--pages/jkd/jkd.wxml-->
+<view
+class="jkd-header"
+>
+ <view lass="jkd-header-tx">
+     <image
+     class="jkd-header-image"
+     src="../../resources/portrait-img.png"
+     />
+ </view>
+     <view class="jkd-header-info">
+         <view class="jkd-header-name-kdy">
+             <view class="kdy-name">
+                 慕慕**
+             </view>
+             <view class="kdy-tel">
+                 133****9999
+             </view>
+         </view>
+         <view class="jkd-header-name-kd">
+             <view class="kd-name">
+                 急速快递
+             </view>
+             <view class="kd-address">
+             深圳机场路
+             </view>
+         </view>
+     </view>
+     <view
+     class="jkd-header-more"
+     >
+        <image
+             class="jkd-header-more-image"
+             src="../../resources/arrow-gray.png"
+        />
+     </view>
+</view>
+<view
+class="jkd--recommend"
+>
+    <view class="jkd-recommend-item">
+        <view class="circular"></view>
+        <view class="jkd-recommend-message">发件人信息</view>
+        <image
+            class="jkd-recommend-image" 
+            src="../../resources/tool-gerenliebiao.png"
+        />
+    </view>
+    <view class="jkd-recommend-item">
+        <view class="circular"></view>
+        <view class="jkd-recommend-message">收件人信息</view>
+        <image
+            class="jkd-recommend-image"
+            src="../../resources/tool-gerenliebiao.png"
+        />
+    </view>
+</view>
+<!-- next -->
+<view class="jkd-next">
+    <view class="jkd-next-text">
+        下一步
+    </view> 
+</view>
+<!-- footer -->
+<view class="jkd-footer">
+    <view class="footer-list">
+        <view class="footer-item">
+            <image 
+            class="footer-image"
+            src="../../resources/punctual-icon.png"
+            />
+            <view class="footer-text">守时守约</view>
+        </view>
+        <view class="line"></view>
+        <view class="footer-item">
+            <image 
+            class="footer-image"
+            src="../../resources/paid-icon.png"
+            />
+            <view class="footer-text">丢损必赔</view>
+        </view>
+        <view class="line"></view>
+        <view class="footer-item">
+            <image 
+            class="footer-image"
+            src="../../resources/guarantee-icon.png"
+            />
+            <view class="footer-text">急速官方保证</view>
+        </view>
+    </view>
+</view>

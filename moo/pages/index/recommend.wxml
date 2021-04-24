@@ -1,0 +1,77 @@
+<block wx:if="{{type==='recommend'}}">
+<!-- swiper -->
+    <swiper
+    class="swiper"
+    previous-margin="18rpx"
+    next-margin="18rpx"
+    circular="{{true}}"
+    autoplay="{{true}}"
+
+    >
+        <swiper-item 
+        class="swiper-item"
+        wx:for="{{swiperList}}"
+        wx:key="index"
+        >
+            <image  
+            src="{{item.imgUrl}}"
+            class="swiper-image"
+            />
+        </swiper-item>
+    </swiper>
+
+    <!-- project -->
+    <view class="project">
+        <!-- 点击转到热门排行 -->
+    <navigator url="/pages/hot/hot">
+        <view class="project-title">实战推荐</view>
+    </navigator>
+    <!-- 没有匹配项即输出无搜索结果 -->
+        <view 
+        class="project-empty"
+        wx:if="{{searchList&&searchList.length==0}}"
+        >无搜索结果</view>
+        
+        <view 
+        class="project-item"
+        wx:for="{{searchList?searchList:courses}}"
+        wx:key="title"
+        >
+            <image
+            src="{{item.imgUrl}}"
+            class="project-item-pic"
+            />
+            <view class="project-item-content">
+                <view class="project-item-title">
+                {{item.title}}
+                </view>
+                <view class="project-item-tags">
+                    <view 
+                    class="projcet-item-price-active"
+                    wx:if="{{item. promotion}}"
+                    >{{item.price}}
+                    </view>
+
+                    <view 
+                    class="projcet-item-price"
+                    wx:if="{{!item. promotion}}"
+                    >{{item.price}}
+                    </view>
+                    <view 
+                    class="project-item-notice"
+                    wx:if="{{item.notice}}"
+                    >{{item.notice}}
+                    </view>
+                    <view class="project-item-text">{{item.level}}
+                    </view>
+                    <view class="project-item-user">
+                        <image
+                            class="porject-item-icon"
+                            src="../../resources/user.png"
+                        />{{item.sales}}
+                    </view>
+                </view>
+            </view>
+        </view>
+    </view>
+</block>

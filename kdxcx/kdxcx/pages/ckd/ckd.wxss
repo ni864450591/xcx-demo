@@ -1,0 +1,44 @@
+/* pages/ckd/ckd.wxss */
+/* header */
+.ckd-header{
+    height: 240rpx;
+    width: 100%;
+    background-color: #35BD00;  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.ckd-searchBox{
+    box-sizing: border-box;
+    width: 620rpx;
+    height: 72rpx;
+    background-color: #fff;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    padding:0 30rpx 0 30rpx;
+    border-radius: 5px;
+}
+.search-icon{
+    width: 30rpx;
+    height: 30rpx;
+}
+/* ::content */
+.ckd-content{
+    margin-top: 100rpx;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.ckd-noresult-image{
+    height: 332rpx;
+    width: 332rpx;
+}
+.ckd-noresult-text{
+    height: 32rpx;
+    line-height: 32rpx;
+    text-align: center;
+    font-size: 12px;
+    color: #999999;
+}

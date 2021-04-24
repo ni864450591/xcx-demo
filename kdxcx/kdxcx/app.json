@@ -1,0 +1,47 @@
+{
+    "pages": [
+        "pages/index/index",
+        "pages/smrz/smrz",
+        "pages/ckd/ckd",
+        "pages/person/person",
+        "pages/jkd/jkd"
+    ],
+    "window": {
+        "backgroundTextStyle": "light",
+        "navigationBarBackgroundColor": "#fff",
+        "navigationBarTitleText": "快递小程序",
+        "navigationBarTextStyle": "white"
+    },
+    "tabBar": {
+        "color": "#666666",
+        "selectedColor": "#35BD00",
+        "list": [
+            {
+                "pagePath": "pages/index/index",
+                "text": "首页",
+                "iconPath": "resources/home-icon-home-icon.png",
+                "selectedIconPath": "resources/home-icon.png"
+            },
+            {
+                "pagePath": "pages/jkd/jkd",
+                "text": "寄快递",
+                "iconPath": "resources/send-icon-send-icon.png",
+                "selectedIconPath": "resources/send-icon.png"
+            },
+            {
+                "pagePath": "pages/ckd/ckd",
+                "text": "查快递",
+                "iconPath": "resources/polling-icon-polling-icon.png",
+                "selectedIconPath": "resources/polling-icon.png"
+            },
+            {
+                "pagePath": "pages/person/person",
+                "text": "我的",
+                "iconPath": "resources/my-icon-my-icon.png",
+                "selectedIconPath": "resources/my-icon.png"
+            }
+        ]
+    },
+    "style": "v2",
+    "sitemapLocation": "sitemap.json"
+}

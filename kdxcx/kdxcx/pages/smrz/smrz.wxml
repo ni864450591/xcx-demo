@@ -1,0 +1,50 @@
+<!--pages/smrz/smrz.wxml-->
+<!-- header -->
+<form class="smrz-header">
+    
+        <label>
+            <view class="smrz-item">
+                <view class="smrz-text">姓名：</view>
+                <input 
+                type="text"
+                class='smrz-input'
+                value="慕慕"
+                placeholder-class="smrz-placeholder"
+                />
+            </view>
+        </label>
+        <label>
+            <view class="smrz-item">
+                <view class="smrz-text">证件号码</view>
+                <input 
+                type="text"
+                class='smrz-input'
+                value="7766568*****223366"
+                placeholder-class="smrz-placeholder"
+                />
+            </view>
+        </label>
+        <label>
+            <view class="smrz-item">
+                <view class="smrz-text">证件照片</view>
+                <input 
+                type="text"
+                class='smrz-input'
+                placeholder="请上传身份证照片（非必传） "
+                placeholder-class="smrz-placeholder"
+                />
+            </view>
+        </label>
+        <label>
+            <view class="smrz-item">
+                <view class="smrz-text">手机号码</view>
+                <input 
+                type="text"
+                class='smrz-input'
+                value="1234****7890"
+                placeholder-class="smrz-placeholder"
+                />
+            </view>
+        </label>
+        <button type="submit" class="btn">提交</button>
+    </form>

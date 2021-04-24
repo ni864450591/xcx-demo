@@ -1,0 +1,10 @@
+<block wx:if="{{type==='activity'}}">
+    <view>
+        <image
+        class="activity-item"
+        wx:for="{{activity}}"
+        wx:key="imgUrl"
+        src="{{item.imgUrl}}"
+        />
+    </view>
+</block>

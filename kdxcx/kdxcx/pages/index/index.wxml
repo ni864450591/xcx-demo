@@ -1,0 +1,91 @@
+<!--index.wxml-->
+<view class="index-page">
+    <view
+    class="index-header"
+    > 
+        <image
+        class="index-header-banner"
+        src="../../resources/banner.png"
+        />
+    </view>
+    <view
+    class="index-recommend"
+    >
+        <view
+        class="index-recommend-title"
+        >
+        最常用快递员
+        </view>
+        <view
+            class="index-recommend-item"
+        >
+            <view
+            class="index-recommend-item-tx"
+            >
+                <image
+                class="index-recommend-item-image"
+                src="../../resources/portrait-img.png"
+                />
+            </view>
+                <view class="index-recommend-item-info">
+                    <view class="index-recommend-item-name-kdy">
+                        <view class="kdy-name">
+                            慕慕**
+                        </view>
+                        <view class="kdy-tel">
+                            133****9999
+                        </view>
+                    </view>
+                    <view class="index-recommend-item-name-kd">
+                        <view class="kd-name">
+                            急速快递
+                        </view>
+                        <view class="kd-address">
+                        深圳机场路
+                        </view>
+                    </view>
+                </view>
+          
+                <view 
+                class="index-recommend-item-do"
+                >
+                    <image
+                        class="index-recommend-item-do-img"
+                        src="../../resources/mail-icon.png"
+                    />
+                    <view class="index-recommend-item-todo">
+                        一键寄出
+                    </view>
+                </view>
+           
+            
+        </view>
+        <view
+            class="index-recommend-item"
+        >
+            <view
+            class="index-recommend-item-tx"
+            >
+                <image
+                class="index-recommend-item-image"
+                src="../../resources/small-img.png"
+                />
+            </view>
+                <view class="index-recommend-item-info">
+                </view>
+                <view
+                class="index-recommend-item-do"
+                >
+                    <image
+                        class="index-recommend-item-do-img"
+                        src="../../resources/dingdan-icon.png"
+                    />
+                    <view class="index-recommend-item-todo">
+                        我的订单
+                    </view>
+                </view>
+        
+        </view>
+    </view>
+</view>
+
